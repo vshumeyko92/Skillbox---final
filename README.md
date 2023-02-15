@@ -1,8 +1,36 @@
 # Skillbox---final
 
+Цель проекта: финализировать проект компании, объединив различные структуры данных из разных источников и разработать небольшой сетевой сервис, который будет принимать запросы по сети и  возвращать данные о состоянии систем компании.
 
-Сборка финальная go run cmd/netresult/main.go
+1) Сбор данных о системе SMS.
+Основная программа: go run cmd/smsData/main.go
 
-Пакеты: github.com/gorrilla/mux
+2) Сбор данных о системе MMS.
+Основная программа: go run cmd/mmsData/main.go
+
+3) Сбор данных о системе VoiceCall.
+Основная программа: go run cmd/voicecallData/main.go
+
+4) Сбор данных о системе email.
+Основная программа: go run cmd/emailData/main.go
+
+5) Сбор данных о системе Billing.
+Основная программа: go run cmd/billingData/main.go
+
+6) Сбор данных о системе Support.
+Основная программа: go run cmd/supportData/main.go
+
+7) Сбор данных о системе истории инцидентов.
+Основная программа: go run cmd/incidentData/main.go
+
+
+
+Сборка финальная: go run cmd/netresult/main.go
+
+Пакеты, используемые в проекте:
+- github.com/gorrilla/mux
+
 
 Пример Запроса на сервер: http://localhost:8282/
+
+файлы, используемые в сервисе находятся в директории config
