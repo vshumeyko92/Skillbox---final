@@ -1,0 +1,46 @@
+debug:
+  enabled: false
+
+sms:
+  sourceDirectory: "simulator"
+  sourceFileName: "sms.data"
+  targetDirectory: "./data"
+  targetFileName: "sms.csv"
+
+mms:
+  scheme: "http"
+  address: "127.0.0.1"
+  port: 8383
+  endpoint: "mms"
+
+voice:
+  sourceDirectory: "simulator"
+  sourceFileName: "voice.data"
+  targetDirectory: "./data"
+  targetFileName: "voice.csv"
+
+mail:
+  sourceDirectory: "simulator"
+  sourceFileName: "email.data"
+  targetDirectory: "./data"
+  targetFileName: "email.csv"
+
+billing:
+  sourceDirectory: "simulator"
+  sourceFileName: "billing.data"
+
+support:
+  scheme: "http"
+  address: "127.0.0.1"
+  port: 8383
+  endpoint: "support"
+
+accendent:
+  scheme: "http"
+  address: "127.0.0.1"
+  port: 8383
+  endpoint: "accendent"
+
+web:
+  address: "127.0.0.1"
+  port: 8585
