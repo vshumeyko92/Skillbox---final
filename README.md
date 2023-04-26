@@ -7,8 +7,9 @@
 3) Перейдя в директорию web открывем файл index.html
 
 Пакеты, используемые в проекте:
-- github.com/gorrilla/mux
+- "github.com/spf13/viper"
+- "github.com/go-chi/chi/v5"
 
-Пример Запроса на сервер: http://localhost:8383/
+Пример Запроса на сервер: http://localhost:8585/
 
-файлы, используемые в сервисе находятся в директории config
+
